@@ -177,9 +177,10 @@
 	:geometry (geometry :x 0 :y 0 :height "30px" :width "100%")
 	:monitor 0
 	:reserve (struts :distance "30px" :side "top")
-	:wm-ignore false
 	:hexpand "false"
 	:vexpand "false"
+	:exclusive "true"
+	:stacking "fg"
   	(bar0))
 
 (defwindow bar1
@@ -227,7 +228,7 @@
 (defwidget top []
 	(box	:orientation "h" :space-evenly "false"
   (launcher)
-  (workspc0)
+  ;; (workspc0)
   (msc)
   ))
 

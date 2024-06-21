@@ -179,58 +179,72 @@
 ;;; └┴┘┴┘└┘─┴┘└─┘└┴┘└─┘
 
 (defwindow profile 
+:monitor 0
 	:geometry (geometry :x 171 :y 128 :width 250 :height 300)
 	(profile))
 
 (defwindow monitors 
+:monitor 0
 	:geometry (geometry :x 171 :y 438 :width 250 :height 55)
 	(monitors))
 
 (defwindow time 
+:monitor 0
 	:geometry (geometry :x 171 :y 503 :width 250 :height 137)
 	(time))
 
 (defwindow system 
+:monitor 0
 	:geometry (geometry :x 431 :y 128 :width 300 :height 300)
 	(system))
 
 (defwindow music 
+:monitor 0
 	:geometry (geometry :x 431 :y 438 :width 400 :height 202)
 	(music))
 	
 (defwindow directory 
+:monitor 0
 	:geometry (geometry :x 841 :y 340 :width 251 :height 300)
 	(directory))
 
 (defwindow power
+:monitor 0
 	:geometry (geometry :x 1102 :y 341 :width 93 :height 299)
 	(power))
 
 (defwindow shortcuts
+:monitor 0
 	:geometry (geometry :x 741 :y 128 :width 90 :height 300)
 	(shortcuts))
 
 (defwindow update 
+:monitor 0
 	:geometry (geometry :x 841 :y 232 :width 90 :height 98)
 	(update))
 
 (defwindow speedmeter 
+:monitor 0
 	:geometry (geometry :x 941 :y 232 :width 152 :height 98)
 	(speedmeter))
 
 (defwindow search 
+:monitor 0
 	:geometry (geometry :x 841 :y 128 :width 90 :height 95)
 	(search))
 
 (defwindow weather
+:monitor 0
 	:geometry (geometry :x 941 :y 128 :width 254 :height 95)
 	(weather))
 
 (defwindow adblock 
+:monitor 0
 	:geometry (geometry :x 1103 :y 232 :width 92 :height 98)
 	(adblock))
 
 (defwindow bgblur 
+:monitor 0
 	:geometry (geometry :x 0 :y 0 :width 0 :height 0 )
 	(bgblur))
 
